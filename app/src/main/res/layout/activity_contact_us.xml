@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    tools:context=".contactUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/nunito"
+            android:text="Dr. MPS GROUP OF INSTITUTIONS"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtHeader"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:text="Contact us"
+            android:textColor="#2E2E2E"
+            android:textSize="30dp" />
+
+        <TableRow
+            android:id="@+id/hr"
+            android:layout_width="100dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/txtContact"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txtAgra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hr"
+            android:layout_alignParentStart="true"
+            android:layout_margin="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="Agra Campus"
+            android:textColor="#2E2E2E"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAgra"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="Agra-Delhi Highway, Sikandra\n(Near Naveen Sabji Mandi), Agra-282 007"
+            android:textColor="#404040"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtContactNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAddress"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="Contact: "
+            android:textColor="#2E2E2E"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/contactNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtContactNo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="9368910004 / 9319969886"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtAdmissionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactNo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="Admission Helpline: "
+            android:textColor="#2E2E2E"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/admissionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtAdmissionNo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/nunito"
+            android:text="9359090501 / 9359090502"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtEmailForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/admissionNo"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="If you have any query regarding:"
+            android:textColor="#2E2E2E"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/txtAdmissionEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEmailForm"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:text="Admission: "
+            android:textColor="#404040"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/AdmissionEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAdmissionEmail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="admissions@mpsgroup.org.in"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtPlacementsEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AdmissionEmail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="Placements: "
+            android:textColor="#2E2E2E"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/PlacementsEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPlacementsEmail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="corporate@mpsgroup.org.in"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtQueryEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PlacementsEmail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="Any Query or Problems: "
+            android:textColor="#2E2E2E"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/QueryEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtQueryEmail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/nunito"
+            android:text="info@mpsgroup.org.in"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtDelhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/QueryEmail"
+            android:layout_alignParentStart="true"
+            android:layout_margin="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="New Delhi Campus"
+            android:textColor="#2E2E2E"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/DelhiAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDelhi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="E-9, Ram Dutt Enclave, Uttam Nagar, New Delhi-59.\nPhone: 011- 28567026, 09212049086"
+            android:textColor="#404040"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtSocialMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DelhiAddress"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/nunito"
+            android:text="Connect with us on:  "
+            android:textColor="#2E2E2E"
+            android:textSize="28dp" />
+
+        <LinearLayout
+            android:id="@+id/socialMedia"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSocialMedia"
+            android:layout_margin="14dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="14dp"
+                android:onClick="openFacebook"
+                android:src="@drawable/ic_facebook"
+                android:tag="https://www.facebook.com/drmpsgroup" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="14dp"
+                android:onClick="openInstagram"
+                android:src="@drawable/ic_instagram"
+                android:tag="https://www.instagram.com/dr_mps_memorial_college/?hl=en" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="14dp"
+                android:onClick="openYoutube"
+                android:src="@drawable/ic_youtube"
+                android:tag="https://m.youtube.com/channel/UCD0ELS1Lwmzz_PxIOlrCg0g" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="14dp"
+                android:onClick="openMaps"
+                android:src="@drawable/ic_map"
+                android:tag="https://www.google.com/maps?ll=27.222445,77.930741&amp;z=15&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=embed&amp;cid=1914829724288111836" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

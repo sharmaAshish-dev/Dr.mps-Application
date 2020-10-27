@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F81919</color>
+    <color name="colorPrimaryDark">#F33940</color>
+    <color name="colorAccent">#F33940</color>
+    <color name="cardColor">#ffffff</color>
+    <color name="cardNameColor">#513A3A</color>
+    <color name="topNavBarColor">#ffffff</color>
+    <color name="green">#afdd27</color>
+    <color name="blue">#55b5c2</color>
+    <color name="orange">#f8ab20</color>
+    <color name="saffron">#ffae7a</color>
+
+</resources>

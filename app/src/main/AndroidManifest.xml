@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashish.drmps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mps_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".contactUs"></activity>
+        <activity android:name=".infrastructure" />
+        <activity
+            android:name=".subject_webview"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".splash"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".college_activities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".msc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mba"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bcom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bca"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bba"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bscBiotech"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
